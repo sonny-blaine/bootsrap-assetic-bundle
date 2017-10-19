@@ -1,0 +1,20 @@
+{
+    "name": "sonny-blaine/bootsrap-assetic-bundle",
+    "description": "Bootstrap and Assetic config for Silex",
+    "type": "library",
+    "require": {
+        "twbs/bootstrap": "^3.3",
+        "symfony/assetic-bundle": "^2.8"
+    },
+    "require-dev": {
+        "symfony/twig-bridge": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinicius de Sa Souza",
+            "email": "vinicius@programador.eti.br"
+        }
+    ],
+    "minimum-stability": "stable"
+}
