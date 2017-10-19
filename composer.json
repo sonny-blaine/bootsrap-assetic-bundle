@@ -7,7 +7,10 @@
         "symfony/assetic-bundle": "^2.8"
     },
     "require-dev": {
-        "symfony/twig-bridge": "^3.3"
+        "symfony/twig-bridge": "^3.3",
+        "symfony/web-server-bundle": "^3.3",
+        "symfony/console": "^3.3",
+        "symfony/framework-bundle": "^3.3"
     },
     "license": "MIT",
     "authors": [
@@ -16,5 +19,13 @@
             "email": "vinicius@programador.eti.br"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "SonnyBlaine\\BootstrapAsseticBundle\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
 }
